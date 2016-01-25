@@ -1,0 +1,79 @@
+$icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+// add files to customize bootstrap
+@import "_custom-fonts.scss";
+@import "_custom-variables.scss";
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+// your own css/scss
+// your own css/scss ends
+.jumbotron {
+    background-image: url("/images/NYC-Header-Optimized.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+
+#header {
+    color: #F5F5F5;
+}
+
+#headerrow {
+    margin: 5%;
+}
+
+
+
+#react{
+    color: lightblue;
+}
+
+.navbar-header a{
+    color: white;
+}
+
+#bs-example-navbar-collapse-1 a{
+    color: lightblue;
+    text-align: center;
+}
+
+#bs-example-navbar-collapse-1{
+    float: right;
+    margin-right: 10%;
+}
+
+
+
+body {
+    background-color: white;
+}
+
+#firstrow {
+    text-align: center;
+}
+
+.row2 {
+    margin-top: 5%;
+    border-top-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+}
+
+
+
+#navbar {
+    float: right;
+    background: rgba(0, 0, 0, 0.8);
+    border: 0;
+    color: white;
+    
+}
+
+li {
+    color: #F5F5F5;
+}
+
+#navcontainer a:hover {
+    background-color: black;
+    color: #FFF;
+}
